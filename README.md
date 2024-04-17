@@ -9,11 +9,11 @@ Extratropical cyclones (ECs) play an important role in the generation of precipi
 
 ## Data and models
 Data:
-- ERA-5 reanalysis from the ECMWF (Hersbach et al., 2020) [link](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset)
+- [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset) reanalysis from the ECMWF (Hersbach et al., 2020) 
 
 Models used:
-- The regional high-resolution model Weather Research and Forecasting (WRF) (Skamarock et al., 2008) [link](https://www2.mmm.ucar.edu/wrf/users/download/get_source.html)
-- The Lagrangian FLEXible PARTicle dispersion model (FLEXPART-WRF) (Brioude et al., 2013) [link](https://www.flexpart.eu/wiki/FpRoadmap)
+- The regional high-resolution model Weather Research and Forecasting ([WRF](https://www2.mmm.ucar.edu/wrf/users/download/get_source.html)) (Skamarock et al., 2008) 
+- The Lagrangian FLEXible PARTicle dispersion model ([FLEXPART-WRF](https://www.flexpart.eu/wiki/FpRoadmap)) (Brioude et al., 2013) 
 
 Softwares used:
 - EuLerian Identification of ascending AirStreams (Quinting & Grams,2022) [ELIAS 2.0](https://doi.org/10.5281/zenodo.5154980) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5154980.svg)](https://doi.org/10.5281/zenodo.5154980)
