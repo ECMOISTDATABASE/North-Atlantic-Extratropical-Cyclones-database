@@ -16,7 +16,7 @@ Models used:
 - The Lagrangian FLEXible PARTicle dispersion model ([FLEXPART-WRF](https://www.flexpart.eu/wiki/FpRoadmap)) (Brioude et al., 2013) 
 
 Softwares used:
-- EuLerian Identification of ascending AirStreams (Quinting & Grams,2022) [ELIAS 2.0](https://doi.org/10.5281/zenodo.5154980) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5154980.svg)](https://doi.org/10.5281/zenodo.5154980)
+- EuLerian Identification of ascending AirStreams (Quinting & Grams,2022) [ELIAS 2.0](https://doi.org/10.5281/zenodo.5154980) 
 - TRansport Of water VApor (Frenández-Alvarez et al., 2022) [TROVA](https://github.com/tramo-ephyslab/TROVA-master.git)
 
 ## Dataset elements:
