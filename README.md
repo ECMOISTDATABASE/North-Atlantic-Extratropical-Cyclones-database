@@ -19,4 +19,14 @@ Softwares used:
 - EuLerian Identification of ascending AirStreams (Quinting & Grams,2022) [ELIAS 2.0](https://doi.org/10.5281/zenodo.5154980) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5154980.svg)](https://doi.org/10.5281/zenodo.5154980)
 - TRansport Of water VApor (Frenández-Alvarez et al., 2022) [TROVA](https://github.com/tramo-ephyslab/TROVA-master.git)
 
-
+## Dataset elements:
+- Track info:
+    - file extension .dat
+    - file content:
+- Target Regions info:
+    - file extension: .nc
+    - file content:
+- Moisture Uptake:
+    - file extension: .nc
+    - file content:
+For selecting the target regions where precipitation associated with ECs occur, we consider three different spatial patterns. Thus, we select (1) a symmetric geometry around the centre of the EC (bounded by the outer radius of the system), (2) the footprints of the associated WCB inflow, ascent, and outflow stages, and (3) a square root spiral system's centred and adjusted for MSLP drop. 
