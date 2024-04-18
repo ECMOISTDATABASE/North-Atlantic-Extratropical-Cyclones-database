@@ -42,6 +42,12 @@ Within each EC folder, you'll find files containing the following information:
 - Mask data
 - Moisture uptake variables (if listed in EC_NATL_int_1985_2022.dat)
 
+### Track data file <track_idx.dat>
+This .dat file contains a header in type:
+**NATL0091985,**
+as described in LINE #1 of [EC_NATL_int_1985_2022.dat](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database?tab=readme-ov-file#ec_natl_int_1985_2022dat-description)  
+the number of line correspond to the EC lifetime in 6hours time steps. Are coding as follows:<br>
+19850105, 18,43.96,-62.53,967.133,996.137,1041.71,
 
 ## Metadata:
 Models used:
