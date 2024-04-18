@@ -8,7 +8,7 @@ Contact: patricia.coll@uvigo.gal
 Extratropical cyclones (ECs) play an important role in the generation of precipitation at mid-latitudes. This dataset contains positional and meteorological data, two-dimensional masks and a variable for moisture uptake associated with precipitation from ECs in the North Atlantic during extended winters from 1985 to 2022.
 ![Figure 1:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/sat_2002.png) 
 
-## Data and models
+## Metadata:
 Models used:
 - The regional high-resolution model Weather Research and Forecasting ([WRF](https://www2.mmm.ucar.edu/wrf/users/download/get_source.html)) (Skamarock et al., 2008) 
     - WRF was fitted with [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset) reanalysis from the ECMWF (Hersbach et al., 2020) 
@@ -18,10 +18,13 @@ Softwares used:
 - EuLerian Identification of ascending AirStreams (Quinting & Grams,2022) [ELIAS 2.0](https://doi.org/10.5281/zenodo.5154980) 
 - TRansport Of water VApor (Frenández-Alvarez et al., 2022) [TROVA](https://github.com/tramo-ephyslab/TROVA-master.git)
 
-## Dataset elements:
+## Dataset description:
 - Track info:
+    - Dimensions
     - file extension .dat
-    - file content:
+    - The number of rows (observations) and columns (variables/features).
+    - Variables/Features: List and describe each variable or feature present in the dataset. Include information such as the variable name, data type, description, and any units of measurement. For categorical variables, specify the categories or levels.
+    - Data Types: Specify the data types of each variable (e.g., numerical, categorical, ordinal, datetime).
 - Target Regions info:
     - file extension: .nc
     - file content:
@@ -31,3 +34,5 @@ Softwares used:
 - Moisture Uptake:
     - file extension: .nc
     - file content:
+
+## Example Records:
