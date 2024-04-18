@@ -80,13 +80,13 @@ Dimensions:
     latitude: 479
 
 Variables:
-
+```
   name: yyyymmddhh (e.g "1985010518")
   long_name: yyyymmddhh
   type: float
   shape: (llatitude, longitude) 
   Mask values: 0 and 1
-
+```
 
 Attributes:
 
@@ -110,7 +110,7 @@ Dimensions:
 ```
 
 Variables:
-
+```
   name: lat
   long_name: latitude
   type: double
@@ -163,14 +163,14 @@ Variables:
   long_name: vertical layers
   type: string
   shape: (layers) 
-
+```
 
 
 Attributes:
-
+```
     Global attributes:
         history: "EC NATL database/Target region: **typemask**/Case: **idx_yyyy**/EPhysLab/Contact: patricia.coll@uvigo.gal/FROM TROVA SOFTWARE"
-
+```
 
 
 ## Metadata:
