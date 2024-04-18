@@ -12,7 +12,7 @@ Extratropical cyclones (ECs) play an important role in the generation of precipi
 
 As of the last update date of the repository, it contains information on the tracks of 11,177 cases. Information about masks and descriptive variables of moisture uptake measurements is available for 237 ECs cases. The most intense ones identified over the Atlantic, which information is documented in the database, are stored in the file <EC_NATL_int_1985_2022.dat>.
 
-## EC_NATL_int_1985_2022.dat description:
+### EC_NATL_int_1985_2022.dat description:
 
 **Example:**<br>
 **LINE #1:** WNATL0091985, <br>
@@ -23,10 +23,10 @@ For each case, there are two corresponding lines, as illustrated by the example 
  where **AREA** represents the subregion in the North Atlantic where the cyclone reached maximum intensity (Possibilities: 'ENATL' for Eastern North Atlantic, 'NATL' for Northern North Atlantic, 'WANTED' for Western North Atlantic), **idx** is a three-position indicator unique to each case per year, corresponding to the sequence of cyclone formation, and **year** is the year of cyclone detection.<br>
 The second line contains the following columns of information: <br>
 **date** in yyyymmdd format, <br>
- **hour** in UTC, <br>
-  **latitude** in degrees North,  <br>
- **longitude** in degrees West-East,  <br>
- **minimum sea level pressure** at the cyclone's center in hPa,  <br>
+**hour** in UTC, <br>
+**latitude** in degrees North,  <br>
+**longitude** in degrees West-East,  <br>
+**minimum sea level pressure** at the cyclone's center in hPa,  <br>
  cyclone **radius** in km, and  <br>
  pressure at the **last closed isobar** in hPa. <br>
 
