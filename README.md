@@ -80,7 +80,7 @@ Dimensions:
     latitude: 479
 
 Variables:
-
+    yyyymmddhh
     Variable names represent dates of the mask given for a position of the cyclone. For example, "1985010518".
     Data type: Float
     Mask values: 0 and 1
@@ -90,6 +90,82 @@ Attributes:
 
     Global attributes:
         history: "EC NATL database/Target region: **typemask**/Case: **idx_yyyy**/EPhysLab/Contact: patricia.coll@uvigo.gal"
+
+### Moisture Uptake Variables <typemask.zip>
+The '.zip' archive contains the resultant moisture uptake files for each type of mask. Consequently, you will find three '.zip' files. It's important to note that different particles were considered in the water budget analysis for each mask. So, pay close attention to the correspondence between the desired results and mask selection.
+
+Each NetCDF file within the '.zip' correspond to the output from a mask variable, contained in the ['typemask_idx.nc'](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database?tab=readme-ov-file#mask-data-file-typemask_idxnc). They are named according the date of the cyclone position analysis format yyyymmddhh plus .nc extension. 
+
+Data Structure:
+
+Dimensions:
+    lat = 325 ;
+    lon = 600 ;
+    time = 10 ;
+    layers = 10 ;
+
+Variables:
+
+  name: lat
+  long_name: latitude
+  type: double
+  shape: (lat) 
+  units: "degrees"
+
+  name: lon
+  long_name: longitud
+  type: double
+  shape: (lon) 
+  units: "degrees"
+
+  name: time
+  long_name: time
+  type: double
+  shape: (time) 
+  units: "days since 1900-01-01"
+
+  name: E_P
+  long_name: E_P
+  type: double
+  shape: (time, lat, lon) 
+  units: "mm/day"
+
+  name: E_P_integrated
+  long_name: E_P integrated for ndays considered
+  type: double
+  shape: (lat, lon) 
+  units: "mm/day"
+
+  name: POR
+  long_name: Sources Contribution for each parcel
+  type: double
+  shape: (time, lat, lo) 
+  units: "%"
+
+  name: E_P_layers
+  long_name: E_P_layers
+  type: double
+  shape: (time, layers, lat, lon) 
+  units: "mm/day"
+
+  name: E_P_integrated_layers
+  long_name: E_P_layers
+  type: double
+  shape: (layers, lat, lon) 
+  units: "mm/day"
+
+  name: vertical_layers
+  long_name: vertical layers
+  type: string
+  shape: (layers) 
+
+
+
+Attributes:
+
+    Global attributes:
+        history: "EC NATL database/Target region: **typemask**/Case: **idx_yyyy**/EPhysLab/Contact: patricia.coll@uvigo.gal/FROM TROVA SOFTWARE"
+
 
 
 ## Metadata:
