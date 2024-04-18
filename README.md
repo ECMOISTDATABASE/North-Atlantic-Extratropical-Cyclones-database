@@ -22,11 +22,16 @@ For each case, there are two corresponding lines, as illustrated by the example 
  where **AREA** represents the subregion in the North Atlantic where the cyclone reached maximum intensity (Possibilities: 'ENATL' for Eastern North Atlantic, 'NATL' for Northern North Atlantic, 'WANTED' for Western North Atlantic), **idx** is a three-position indicator unique to each case per year, corresponding to the sequence of cyclone formation, and **year** is the year of cyclone detection.<br>
 The second line contains the following columns of information: <br>
 **date** in yyyymmdd format, <br>
- **hour** in UTC, **latitude** in degrees North,  <br>
+ **hour** in UTC, <br>
+  **latitude** in degrees North,  <br>
  **longitude** in degrees West-East,  <br>
  **minimum sea level pressure** at the cyclone's center in hPa,  <br>
  cyclone **radius** in km, and  <br>
  pressure at the **last closed isobar** in hPa. <br>
+
+## DATASET description:
+The dataset is organized within the parent folder 'EC', which contains subfolders for each year from 1985 to 2022. Within each year folder, there are subfolders named according to the following pattern: **mm_seasoninfo** (mm:month). The season information indicates whether the month corresponds to the winter season of the year folder or a previous year, providing a benchmark for code interpretation.
+Inside the month folder, you'll find subfolders named according to an index corresponding to each EC case in the year. The order is determined by the chronological formation of the ECs, with each index represented by a three-digit number.
 
 ## Metadata:
 Models used:
