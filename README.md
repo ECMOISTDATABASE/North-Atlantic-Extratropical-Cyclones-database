@@ -183,21 +183,4 @@ Softwares used:
 - EuLerian Identification of ascending AirStreams (Quinting & Grams,2022) [ELIAS 2.0](https://doi.org/10.5281/zenodo.5154980) 
 - TRansport Of water VApor (Frenández-Alvarez et al., 2022) [TROVA](https://github.com/tramo-ephyslab/TROVA-master.git)
 
-## Dataset description:
-- Track info:
-    - Dimensions
-    - file extension .dat
-    - The number of rows (observations) and columns (variables/features).
-    - Variables/Features: List and describe each variable or feature present in the dataset. Include information such as the variable name, data type, description, and any units of measurement. For categorical variables, specify the categories or levels.
-    - Data Types: Specify the data types of each variable (e.g., numerical, categorical, ordinal, datetime).
-- Target Regions info:
-    - file extension: .nc
-    - file content:
-        -(1) a symmetric geometry around the centre of the EC (bounded by the outer radius of the system)  
-        -(2) the footprints of the associated WCB inflow, ascent, and outflow stages
-        -(3) a square root spiral system's centred and adjusted for MSLP drop
-- Moisture Uptake:
-    - file extension: .nc
-    - file content:
-
 ## Example Records:
