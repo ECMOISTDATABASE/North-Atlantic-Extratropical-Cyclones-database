@@ -7,7 +7,8 @@ Contact: patricia.coll@uvigo.gal
 ## What is this?
 Extratropical cyclones (ECs) play an important role in the generation of precipitation at mid-latitudes. This dataset contains positional and meteorological data, two-dimensional masks and a variable for moisture uptake associated with precipitation from ECs in the North Atlantic during extended winters from 1985 to 2022.
 
-![Figure 1:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/sat_2002.png) 
+<!-- ![Figure 1:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/sat_2002.png)  -->
+
 
 As of the last update date of the repository, it contains information on the tracks of 11,177 cases. Information about masks and descriptive variables of moisture uptake measurements is available for 237 ECs cases. The most intense ones identified over the Atlantic, which information is documented in the database, are stored in the file <EC_NATL_int_1985_2022.dat>.
 
@@ -29,6 +30,8 @@ The second line contains the following columns of information: <br>
  cyclone **radius** in km, and  <br>
  pressure at the **last closed isobar** in hPa. <br>
 
+All '.dat' separators are defined with commas, and missing values are represented as **-9999**.
+
 ## DATASET description:
 The dataset is organized within the parent folder **'EC'**, which contains subfolders for each year from 1985 to 2022. Within each year folder, there are subfolders named according to the following pattern: **mm_seasoninfo** (mm=month). The season information indicates whether the month corresponds to the winter season of the year folder or a previous year, providing a benchmark for code interpretation.<br>
 Inside the month folder, you'll find subfolders named according to an index corresponding to each EC case in the year. The order is determined by the chronological formation of the ECs, with each index represented by a three-digit number.<br>
@@ -44,9 +47,15 @@ Within each EC folder, you'll find files containing the following information:
 
 ### Track data file <track_idx.dat>
 The '.dat' file contains a header in the following format:
-NATL0091985, where "NATL" is standard for all cases, indicating the North Atlantic basin as described in LINE #1 of [EC_NATL_int_1985_2022.dat](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database?tab=readme-ov-file#ec_natl_int_1985_2022dat-description) 
-The number of lines corresponds to the EC lifetime in 6-hour time steps. They are coded as follows:<br>
+
+**NATL0091985,**
+
+ where "NATL" is standard for all cases, indicating the North Atlantic basin as described in LINE #1 of [EC_NATL_int_1985_2022.dat](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database?tab=readme-ov-file#ec_natl_int_1985_2022dat-description) 
+The number of lines corresponds to the EC lifetime in 6-hour time steps. They are coded as follows:
+
+
 19850105, 18, 43.96, -62.53, 967.133, 996.137, 1041.71,
+
 
 The rows correspond with:
 - yyyymmdd: Date in year-month-day format
