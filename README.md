@@ -66,6 +66,32 @@ The rows correspond with:
 - Radius (km): Cyclone radius in kilometers (km)
 - last closed isobar (hPa): Pressure at the last closed isobar in hectopascals (hPa)
 
+### Mask data file <typemask_idx.nc>
+
+The typemask attribute could take the following names: "radius," "spiral," or "wcb," corresponding to the decided shapes for representing the cyclone in the meteorological data.
+
+File Format: NetCDF (Network Common Data Form).
+
+Data Structure:
+
+Dimensions:
+
+    longitude: 799
+    latitude: 479
+
+Variables:
+
+    Variable names represent dates of the mask given for a position of the cyclone. For example, "1985010518".
+    Data type: Float
+    Mask values: 0 and 1
+    Shape: (latitude, longitude)
+
+Attributes:
+
+    Global attributes:
+        history: "EC NATL database/Target region: **typemask**/Case: **idx_yyyy**/EPhysLab/Contact: patricia.coll@uvigo.gal"
+
+
 ## Metadata:
 Models used:
 - The regional high-resolution model Weather Research and Forecasting ([WRF](https://www2.mmm.ucar.edu/wrf/users/download/get_source.html)) (Skamarock et al., 2008) 
