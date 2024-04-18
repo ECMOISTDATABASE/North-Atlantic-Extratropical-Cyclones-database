@@ -13,15 +13,20 @@ As of the last update date of the repository, it contains information on the tra
 
 ## EC_NATL_int_1985_2022.dat description:
 
-Example:<br>
-**line #1**WNATL0091985, <br>
-**LINE #2**19850106, 00,45.37,-59.57,958.182,994.151,1002.68,<br>
+**Example:**<br>
+**LINE #1:** WNATL0091985, <br>
+**LINE #2:** 19850106, 00,45.37,-59.57,958.182,994.151,1002.68,<br>
 
 For each case, there are two corresponding lines, as illustrated by the example lines. The first line follows the format:<br>
  **AREAidxyear,**<br>
- where **AREA** represents the subregion in the North Atlantic where the cyclone reached maximum intensity (Posibilities: ), **idx** is a three-position indicator unique to each case per year, corresponding to the sequence of cyclone formation, and **year** is the year of cyclone detection.<br>
+ where **AREA** represents the subregion in the North Atlantic where the cyclone reached maximum intensity (Possibilities: 'ENATL' for Eastern North Atlantic, 'NATL' for Northern North Atlantic, 'WANTED' for Western North Atlantic), **idx** is a three-position indicator unique to each case per year, corresponding to the sequence of cyclone formation, and **year** is the year of cyclone detection.<br>
 The second line contains the following columns of information: <br>
-**date** in yyyymmdd format, **hour** in UTC, **latitude** in degrees North, **longitude** in degrees West-East, **minimum sea level pressure** at the cyclone's center in hPa, cyclone **radius** in km, and pressure at the **last closed isobar** in hPa.
+**date** in yyyymmdd format, <br>
+ **hour** in UTC, **latitude** in degrees North,  <br>
+ **longitude** in degrees West-East,  <br>
+ **minimum sea level pressure** at the cyclone's center in hPa,  <br>
+ cyclone **radius** in km, and  <br>
+ pressure at the **last closed isobar** in hPa. <br>
 
 ## Metadata:
 Models used:
