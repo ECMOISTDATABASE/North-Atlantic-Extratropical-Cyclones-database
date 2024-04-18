@@ -31,7 +31,17 @@ The second line contains the following columns of information: <br>
 
 ## DATASET description:
 The dataset is organized within the parent folder **'EC'**, which contains subfolders for each year from 1985 to 2022. Within each year folder, there are subfolders named according to the following pattern: **mm_seasoninfo** (mm=month). The season information indicates whether the month corresponds to the winter season of the year folder or a previous year, providing a benchmark for code interpretation.<br>
-Inside the month folder, you'll find subfolders named according to an index corresponding to each EC case in the year. The order is determined by the chronological formation of the ECs, with each index represented by a three-digit number.
+Inside the month folder, you'll find subfolders named according to an index corresponding to each EC case in the year. The order is determined by the chronological formation of the ECs, with each index represented by a three-digit number.<br>
+
+
+Case folder description:
+
+Within each EC folder, you'll find files containing the following information:
+
+- Track data
+- Mask data
+- Moisture uptake variables (if listed in EC_NATL_int_1985_2022.dat)
+
 
 ## Metadata:
 Models used:
