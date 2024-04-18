@@ -101,71 +101,75 @@ Each NetCDF file within the '.zip' correspond to the output from a mask variable
 Data Structure:
 
 Dimensions:
+
+```
     lat = 325 ;
     lon = 600 ;
     time = 10 ;
     layers = 10 ;
+```
 
 Variables:
 
-  - name: lat
-    long_name: latitude
-    type: double
-    shape: (lat) 
-    units: "degrees"
+  name: lat
+  long_name: latitude
+  type: double
+  shape: (lat) 
+  units: "degrees"
 
-  - name: lon
-    long_name: longitude
-    type: double
-    shape: (lon) 
-    units: "degrees"
+  name: lon
+  long_name: longitud
+  type: double
+  shape: (lon) 
+  units: "degrees"
 
-  - name: time
-    long_name: time
-    type: double
-    shape: (time) 
-    units: "days since 1900-01-01"
+  name: time
+  long_name: time
+  type: double
+  shape: (time) 
+  units: "days since 1900-01-01"
 
-  - name: E_P
-    long_name: E_P
-    type: double
-    shape: (time, lat, lon) 
-    units: "mm/day"
+  name: E_P
+  long_name: E_P
+  type: double
+  shape: (time, lat, lon) 
+  units: "mm/day"
 
-  - name: E_P_integrated
-    long_name: E_P integrated for ndays considered
-    type: double
-    shape: (lat, lon) 
-    units: "mm/day"
+  name: E_P_integrated
+  long_name: E_P integrated for ndays considered
+  type: double
+  shape: (lat, lon) 
+  units: "mm/day"
 
-  - name: POR
-    long_name: Sources Contribution for each parcel
-    type: double
-    shape: (time, lat, lon) 
-    units: "%"
+  name: POR
+  long_name: Sources Contribution for each parcel
+  type: double
+  shape: (time, lat, lo) 
+  units: "%"
 
-  - name: E_P_layers
-    long_name: E_P_layers
-    type: double
-    shape: (time, layers, lat, lon) 
-    units: "mm/day"
+  name: E_P_layers
+  long_name: E_P_layers
+  type: double
+  shape: (time, layers, lat, lon) 
+  units: "mm/day"
 
-  - name: E_P_integrated_layers
-    long_name: E_P_layers
-    type: double
-    shape: (layers, lat, lon) 
-    units: "mm/day"
+  name: E_P_integrated_layers
+  long_name: E_P_layers
+  type: double
+  shape: (layers, lat, lon) 
+  units: "mm/day"
 
-  - name: vertical_layers
-    long_name: vertical layers
-    type: string
-    shape: (layers) 
+  name: vertical_layers
+  long_name: vertical layers
+  type: string
+  shape: (layers) 
+
+
 
 Attributes:
 
     Global attributes:
         history: "EC NATL database/Target region: **typemask**/Case: **idx_yyyy**/EPhysLab/Contact: patricia.coll@uvigo.gal/FROM TROVA SOFTWARE"
-
 
 
 
