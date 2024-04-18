@@ -43,11 +43,19 @@ Within each EC folder, you'll find files containing the following information:
 - Moisture uptake variables (if listed in EC_NATL_int_1985_2022.dat)
 
 ### Track data file <track_idx.dat>
-This .dat file contains a header in type:<br>
-**NATL0091985,** where NATL is standard for all cases, pointing to the Norfth Atlantic basin.
-as described in LINE #1 of [EC_NATL_int_1985_2022.dat](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database?tab=readme-ov-file#ec_natl_int_1985_2022dat-description)  
-the number of line correspond to the EC lifetime in 6hours time steps. Are coding as follows:<br>
-19850105, 18,43.96,-62.53,967.133,996.137,1041.71,
+The '.dat' file contains a header in the following format:
+NATL0091985, where "NATL" is standard for all cases, indicating the North Atlantic basin as described in LINE #1 of [EC_NATL_int_1985_2022.dat](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database?tab=readme-ov-file#ec_natl_int_1985_2022dat-description) 
+The number of lines corresponds to the EC lifetime in 6-hour time steps. They are coded as follows:<br>
+19850105, 18, 43.96, -62.53, 967.133, 996.137, 1041.71,
+
+The rows correspond with:
+- yyyymmdd: Date in year-month-day format
+- hh (in UTC): Hour in Coordinated Universal Time
+- latitude (degrees North): Latitude in degrees North
+- longitude (degrees West): Longitude in degrees West
+- MSLP (hPa): Mean Sea Level Pressure in hectopascals (hPa)
+- Radius (km): Cyclone radius in kilometers (km)
+- last closed isobar (hPa): Pressure at the last closed isobar in hectopascals (hPa)
 
 ## Metadata:
 Models used:
