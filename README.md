@@ -20,7 +20,7 @@ As of the last update date of the repository, it contains information on the tra
 
 For each case, there are two corresponding lines, as illustrated by the example lines. The first line follows the format:<br>
  **AREAidxyear,**<br>
- where **AREA** represents the subregion in the North Atlantic where the cyclone reached maximum intensity (Possibilities: 'ENATL' for Eastern North Atlantic, 'NATL' for Northern North Atlantic, 'WANTED' for Western North Atlantic), **idx** is a three-position indicator unique to each case per year, corresponding to the sequence of cyclone formation, and **year** is the year of cyclone detection.<br>
+ where **AREA** represents the subregion in the North Atlantic where the cyclone reached maximum intensity (Possibilities: 'ENATL' for Eastern North Atlantic, 'NATL' for Northern North Atlantic, 'WNATL' for Western North Atlantic), **idx** is a three-position indicator unique to each case per year, corresponding to the sequence of cyclone formation, and **year** is the year of cyclone detection.<br>
 The second line contains the following columns of information: <br>
 **date** in yyyymmdd format, <br>
 **hour** in UTC, <br>
@@ -54,7 +54,7 @@ The '.dat' file contains a header in the following format:
 The number of lines corresponds to the EC lifetime in 6-hour time steps. They are coded as follows:
 
 
-19850105, 18, 43.96, -62.53, 967.133, 996.137, 1041.71,
+**19850105, 18, 43.96, -62.53, 967.133, 996.137, 1041.71,**
 
 
 The rows correspond with:
