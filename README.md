@@ -6,7 +6,22 @@ Contact: patricia.coll@uvigo.gal
 
 ## What is this?
 Extratropical cyclones (ECs) play an important role in the generation of precipitation at mid-latitudes. This dataset contains positional and meteorological data, two-dimensional masks and a variable for moisture uptake associated with precipitation from ECs in the North Atlantic during extended winters from 1985 to 2022.
+
 ![Figure 1:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/sat_2002.png) 
+
+As of the last update date of the repository, it contains information on the tracks of 11,177 cases. Information about masks and descriptive variables of moisture uptake measurements is available for 237 ECs cases. The most intense ones identified over the Atlantic, which information is documented in the database, are stored in the file <EC_NATL_int_1985_2022.dat>.
+
+## EC_NATL_int_1985_2022.dat description:
+
+Example:
+WNATL0091985, 
+19850106, 00,45.37,-59.57,958.182,994.151,1002.68,
+
+For each case, there are two corresponding lines, as illustrated by the example lines. The first line follows the format:
+ **AREAidxyear,**
+ where **AREA** represents the subregion in the North Atlantic where the cyclone reached maximum intensity (Posibilities: ), **idx** is a three-position indicator unique to each case per year, corresponding to the sequence of cyclone formation, and **year** is the year of cyclone detection.
+The second line contains the following columns of information: 
+**date** in yyyymmdd format, **hour** in UTC, **latitude** in degrees North, **longitude** in degrees West-East, **minimum sea level pressure** at the cyclone's center in hPa, cyclone **radius** in km, and pressure at the **last closed isobar** in hPa.
 
 ## Metadata:
 Models used:
