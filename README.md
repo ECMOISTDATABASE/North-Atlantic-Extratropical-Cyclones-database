@@ -7,6 +7,7 @@ Contact: patricia.coll@uvigo.gal
 ## What is this?
 Extratropical cyclones (ECs) play an important role in the generation of precipitation at mid-latitudes. This dataset contains positional and meteorological data, two-dimensional masks and a variable for moisture uptake associated with precipitation from ECs in the North Atlantic during extended winters from 1985 to 2022.
 ![Figure 1:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/sat_2002.png) 
+
 ## Data and models
 Models used:
 - The regional high-resolution model Weather Research and Forecasting ([WRF](https://www2.mmm.ucar.edu/wrf/users/download/get_source.html)) (Skamarock et al., 2008) 
@@ -24,7 +25,9 @@ Softwares used:
 - Target Regions info:
     - file extension: .nc
     - file content:
+        -(1) a symmetric geometry around the centre of the EC (bounded by the outer radius of the system)  
+        -(2) the footprints of the associated WCB inflow, ascent, and outflow stages
+        -(3) a square root spiral system's centred and adjusted for MSLP drop
 - Moisture Uptake:
     - file extension: .nc
     - file content:
-For selecting the target regions where precipitation associated with ECs occur, we consider three different spatial patterns. Thus, we select (1) a symmetric geometry around the centre of the EC (bounded by the outer radius of the system), (2) the footprints of the associated WCB inflow, ascent, and outflow stages, and (3) a square root spiral system's centred and adjusted for MSLP drop. 
