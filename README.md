@@ -75,7 +75,7 @@ In (a), the mask 'radius' is depicted with contoured dashed blue lines. To repre
 
 In (b), precipitation from WRF outputs serves as the background, while the 'spiral' shape is delineated with contoured lines.
 
-![Figure 1:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/03_Figure_fields.png)
+![Figure 1:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/case_0292002_mask_example.png)
 
 File Format: NetCDF (Network Common Data Form).
 
