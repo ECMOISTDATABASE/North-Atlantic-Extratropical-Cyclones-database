@@ -91,8 +91,21 @@ Variables:
   name: yyyymmddhh (e.g "1985010518")
   long_name: yyyymmddhh
   type: float
-  shape: (llatitude, longitude) 
+  shape: (latitude, longitude) 
   Mask values: 0 and 1
+
+  name: XLAT
+  long_name: latitude
+  type: float
+  shape: (lat) 
+  units: "degrees"
+
+  name: XLONG
+  long_name: longitud
+  type: float
+  shape: (lon) 
+  units: "degrees"
+
 ```
 
 Attributes:
