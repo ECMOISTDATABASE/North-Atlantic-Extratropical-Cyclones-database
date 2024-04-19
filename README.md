@@ -192,3 +192,5 @@ Softwares used:
 
 ## Example Records:
 In the [Example_case_029_2002](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/tree/main/Example_case_029_2002) directory, you'll find instructions for reproducing the next figure. Feel free to refer to the **'readme.txt'** file for guidance and customize the script according to your requirements.
+
+![Figure 2:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/Example_case_029_2002/Moisture_Up_Cross_Section_029_2002.png)
