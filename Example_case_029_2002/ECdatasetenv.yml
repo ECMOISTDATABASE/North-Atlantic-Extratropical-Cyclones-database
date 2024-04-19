@@ -1,0 +1,11 @@
+name: my_environment
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - matplotlib
+  - cartopy
+  - netcdf4
+  - xarray
+  - metpy
+  - unzip
