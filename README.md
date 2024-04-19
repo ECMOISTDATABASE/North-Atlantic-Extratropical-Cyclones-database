@@ -29,7 +29,7 @@ The second line contains the following columns of information: <br>
  cyclone **radius** in km, and  <br>
  pressure at the **last closed isobar** in hPa. <br>
 
-All '.dat' separators are defined with commas, and missing values are represented as **-9999**.
+All '.dat' separators are defined with commas.
 
 The function **read_track_data** in [script example_case.py](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/Example_case_029_2002/example_case.py) allows for reading the **EC_NATL_int_1985_2022.dat** file too. Ensure to adjust the index on line 181 to select the **AREA** name correctly.
 
