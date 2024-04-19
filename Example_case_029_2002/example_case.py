@@ -169,6 +169,71 @@ def unzip(zip_file, extract_to="."):
 	"""
 	with zipfile.ZipFile(zip_file, 'r') as zip_ref:
 		zip_ref.extractall(extract_to)
+def read_track_data():
+	# Define the track file name
+	track_file_name="./track_029.dat"
+	
+	# Open the track file for reading		
+	input_files=open(track_file_name)
+	tracks=input_files.readlines()
+	
+	# Extract AREA, EC_id, and YEAR from the first line of the track file
+	AREA=tracks[0][0:4]
+	EC_id=tracks[0][4:7]
+	YEAR=tracks[0][7:11]
+	
+	# Initialize an empty array to store case data
+	case_data=np.empty((len(tracks)-1,6))
+	
+	# Initialize empty lists for storing individual data fields
+	date=[]
+	latitudes=[]
+	longitudes=[]
+	MSLP=[]
+	Radius=[]
+	LCI=[] #last closed isobar
+	
+	
+	# Iterate over each line in the track file
+	index=1
+	while index < len(tracks):
+		array=tracks[index].split(",")
+
+		date=np.append(date,array[0]+array[1].split(" ")[-1])
+		latitudes=np.append(latitudes,array[2])
+		longitudes=np.append(longitudes,array[3])
+		MSLP=np.append(MSLP,array[4])
+		LCI=np.append(LCI,array[5])
+		Radius=np.append(Radius,array[6])
+		
+
+		index=index+1
+	
+	# Store the data from lists into the case_data array
+	case_data[:,0]=date[:]
+	case_data[:,1]=latitudes[:]
+	case_data[:,2]=longitudes[:]
+	case_data[:,3]=MSLP[:]
+	case_data[:,4]=Radius[:]
+	case_data[:,5]=LCI[:]	
+		
+	return case_data
+	
+def read_mask_shape():
+	# Open the NETCDF file 
+	mask_file_name="./radius_029.nc"
+	
+	Sfile=Dataset(mask_file_name,'r')
+	
+	# Extract latitude, longitude, and mask data
+	latitud=Sfile.variables["XLAT"][:]	
+	longitud=Sfile.variables["XLONG"][:]	
+	mask=Sfile.variables["2002020812"][:] # 1 for points of mask
+	
+	# Close the NETCDF file	
+	Sfile.close()	
+	return mask
+
 
 # Main code
 if __name__ == "__main__":
