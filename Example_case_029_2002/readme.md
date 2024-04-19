@@ -1,14 +1,7 @@
 ### Reproducing the Figure in Example Records (Case 029, 2002)
 
 **Ensure Python Dependencies:**
-First, ensure that you have installed the necessary Python dependencies. If not, create the Conda environment by executing the following commands:
-
-```bash
-conda env create -f ECdatasetenv.yml
-conda activate ECdatasetenv
-```
-
-Clone the Repository:
+First, clone the Repository:
 Clone the repository to your local machine. Open your terminal or command prompt and execute the following command:
 
 ```bash
@@ -17,6 +10,13 @@ git clone https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclon
 
 Access the Example Case Directory:
 Navigate to the Example_case_029_2002 directory within the cloned repository.
+
+Ensure that you have installed the necessary Python dependencies. If not, create the Conda environment by executing the following commands:
+
+```bash
+conda env create -f ECdatasetenv.yml
+conda activate ECdatasetenv
+```
 
 Update Path in Example Script:
 Open the example_case.py script and locate line 176. Update the path direction to the content of the Moisture uptake .zip file according to your local directory structure.
