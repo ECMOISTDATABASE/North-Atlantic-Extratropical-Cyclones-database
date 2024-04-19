@@ -210,3 +210,5 @@ Softwares used:
 In the [Example_case_029_2002](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/tree/main/Example_case_029_2002) directory, you'll find instructions for reproducing the next figure. Feel free to refer to the **'readme.md'** file for guidance and customize the script according to your requirements. Please note that the [script example_case.py](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/Example_case_029_2002/example_case.py) includes functions to read information from the track '.dat' files and mask '.nc' file.
 
 ![Figure 2:](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/Example_case_029_2002/Moisture_Up_Cross_Section_029_2002.png)
+
+The filtered landfalling cases over the Iberian Peninsula are stored in the file **EC_IP_int_1985_2022.dat** on the dataset. You can read this file using the **read_track_data** function in the [script example_case.py](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/Example_case_029_2002/example_case.py).
