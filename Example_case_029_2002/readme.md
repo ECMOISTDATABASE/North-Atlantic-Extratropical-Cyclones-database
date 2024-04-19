@@ -1,8 +1,3 @@
-
-Here are the instructions in Markdown format:
-
-markdown
-Copy code
 ### Reproducing the Figure in Example Records (Case 029, 2002)
 
 **Ensure Python Dependencies:**
@@ -11,12 +6,15 @@ First, ensure that you have installed the necessary Python dependencies. If not,
 ```bash
 conda env create -f ECdatasetenv.yml
 conda activate ECdatasetenv
+```
 
 Clone the Repository:
 Clone the repository to your local machine. Open your terminal or command prompt and execute the following command:
 
-
+```bash
 git clone https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database.git
+```
+
 Access the Example Case Directory:
 Navigate to the Example_case_029_2002 directory within the cloned repository.
 
