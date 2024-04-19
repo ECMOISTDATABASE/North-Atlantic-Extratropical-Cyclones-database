@@ -31,6 +31,8 @@ The second line contains the following columns of information: <br>
 
 All '.dat' separators are defined with commas, and missing values are represented as **-9999**.
 
+Function **read_track_data** in [script example_case.py](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/Example_case_029_2002/example_case.py) allows read this file, ensuring adjust in line 181 the index for select **AREA** name.
+
 ## DATASET description:
 The dataset is organized within the parent folder **'EC'**, which contains subfolders for each year from 1985 to 2022. Within each year folder, there are subfolders named according to the following pattern: **mm_seasoninfo** (mm=month). The season information indicates whether the month corresponds to the winter season of the year folder or a previous year, providing a benchmark for code interpretation.<br>
 Inside the month folder, you'll find subfolders named according to an index corresponding to each EC case in the year. The order is determined by the chronological formation of the ECs, with each index represented by a three-digit number.<br>
