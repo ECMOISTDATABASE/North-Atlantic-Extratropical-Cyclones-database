@@ -36,16 +36,19 @@ The function **read_track_data** in [script example_case.py](https://github.com/
 
 ## DATASET description:
 The data set is organized within the repositories:
-1985-2000: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11454946.svg)](https://doi.org/10.5281/zenodo.11454946)
 
-2001-2016: 10.5281/zenodo.11476835
-2017-2022: 10.5281/zenodo.11476925
+1985-2000:
 
-[![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11454946.svg)](https://doi.org/10.5281/zenodo.11454946)
 
-[![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
+2001-2016: 
 
-[![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11476835.svg)](https://doi.org/10.5281/zenodo.11476835)
+
+2017-2022: 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11476925.svg)](https://doi.org/10.5281/zenodo.11476925)
+
 
 In the repositories, compressed files corresponding to the years between 1985 and 2022 have been distributed (given the database size). Until the publication of these data, access depends on the authorization of the authors.
 
