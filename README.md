@@ -31,11 +31,15 @@ The second line contains the following columns of information: <br>
 
 All '.dat' separators are defined with commas.
 
-The function **read_track_data** in [script example_case.py](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/Example_case_029_2002/example_case.py) allows for reading the **EC_NATL_int_1985_2022.dat** file too. Ensure to adjust the index on line 181 to select the **AREA** name correctly.
+The function **read_track_data** in [script example_case.py](https://github.com/ECMOISTDATABASE/North-Atlantic-Extratropical-Cyclones-database/blob/main/Example_case_029_2002/example_case.py) allows for reading the **EC_NATL_int_1985_2022.dat** file too. Could you correctly adjust the index on line 181 to select the **AREA** name?
 
 
 ## DATASET description:
-The dataset is organized within the parent folder **'EC'**, which contains subfolders for each year from 1985 to 2022. Within each year folder, there are subfolders named according to the following pattern: **mm_seasoninfo** (mm=month). The season information indicates whether the month corresponds to the winter season of the year folder or a previous year, providing a benchmark for code interpretation.<br>
+The data set is organized within the repositories:
+
+Each repository contains compressed files corresponding to the years between 1985 and 2022. Until the publication of these data, access depends on the authorization of the authors.
+
+Within each year folder, subfolders are named according to the following pattern: **mm_seasoninfo** (mm=month). The season information indicates whether the month corresponds to the winter season of the year folder or a previous year, providing a benchmark for code interpretation.<br>
 Inside the month folder, you'll find subfolders named according to an index corresponding to each EC case in the year. The order is determined by the chronological formation of the ECs, with each index represented by a three-digit number.<br>
 
 
