@@ -17,7 +17,7 @@ As of the last update date of the repository, it contains information on the tra
 **LINE #1:** WNATL0091985, <br>
 **LINE #2:** 19850106, 00,45.37,-59.57,958.182,994.151,1002.68,<br>
 
-For each case, there are two corresponding lines, as illustrated by the example lines. The first line follows the format:<br>
+There are two corresponding lines for each case, as illustrated by the example lines. The first line follows the format:<br>
  **AREAidxyear,**<br>
  where **AREA** represents the subregion in the North Atlantic where the cyclone reached maximum intensity (Possibilities: 'ENATL' for Eastern North Atlantic, 'NATL' for Northern North Atlantic, 'WNATL' for Western North Atlantic), **idx** is a three-position indicator unique to each case per year, corresponding to the sequence of cyclone formation, and **year** is the year of cyclone detection.<br>
 The second line contains the following columns of information: <br>
@@ -37,6 +37,8 @@ The function **read_track_data** in [script example_case.py](https://github.com/
 ## DATASET description:
 The data set is organized within the repositories:
 
+[![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
+[![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
 [![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
 
 In the repositories, compressed files corresponding to the years between 1985 and 2022 have been distributed (given the database size). Until the publication of these data, access depends on the authorization of the authors.
