@@ -36,8 +36,10 @@ The function **read_track_data** in [script example_case.py](https://github.com/
 
 ## DATASET description:
 The data set is organized within the repositories:
+[doi][10.5281/zenodo.11454946]
 
-Each repository contains compressed files corresponding to the years between 1985 and 2022. Until the publication of these data, access depends on the authorization of the authors.
+
+In the repositories, compressed files corresponding to the years between 1985 and 2022 have been distributed (given the database size). Until the publication of these data, access depends on the authorization of the authors.
 
 Within each year folder, subfolders are named according to the following pattern: **mm_seasoninfo** (mm=month). The season information indicates whether the month corresponds to the winter season of the year folder or a previous year, providing a benchmark for code interpretation.<br>
 Inside the month folder, you'll find subfolders named according to an index corresponding to each EC case in the year. The order is determined by the chronological formation of the ECs, with each index represented by a three-digit number.<br>
@@ -63,13 +65,13 @@ The number of lines corresponds to the EC lifetime in 6-hour time steps. They ar
 **19850105, 18, 43.96, -62.53, 967.133, 996.137, 1041.71,**
 
 
-The rows correspond with:
+The rows correspond with the following:
 - yyyymmdd: Date in year-month-day format
 - hh (in UTC): Hour in Coordinated Universal Time
 - latitude (degrees North): Latitude in degrees North
 - longitude (degrees West): Longitude in degrees West
 - MSLP (hPa): Mean Sea Level Pressure in hectopascals (hPa)
-- Radius (km): Cyclone radius in kilometers (km)
+- Radius (km): Cyclone radius in kilometres (km)
 - last closed isobar (hPa): Pressure at the last closed isobar in hectopascals (hPa)
 
 ### Mask data file <typemask_idx.nc>
