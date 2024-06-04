@@ -36,6 +36,9 @@ The function **read_track_data** in [script example_case.py](https://github.com/
 
 ## DATASET description:
 The data set is organized within the repositories:
+1985-2000: 10.5281/zenodo.11454946
+2001-2016: 10.5281/zenodo.11476835
+2017-2022: 10.5281/zenodo.11476925
 
 [![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
 
