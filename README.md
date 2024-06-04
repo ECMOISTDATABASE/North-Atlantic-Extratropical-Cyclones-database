@@ -38,7 +38,9 @@ The function **read_track_data** in [script example_case.py](https://github.com/
 The data set is organized within the repositories:
 
 [![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
+
 [![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
+
 [![DOI](https://zenodo.org/badge/14475/dhimmel/lincs.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/lincs)
 
 In the repositories, compressed files corresponding to the years between 1985 and 2022 have been distributed (given the database size). Until the publication of these data, access depends on the authorization of the authors.
